@@ -10,6 +10,7 @@ module WB_Mux (
             2'b00: wdata = pc_w + 4;
             2'b01: wdata = ALU_res_w;
             2'b10: wdata = rdata;
+            default: wdata = 32'b0; 
         endcase
 
     end
