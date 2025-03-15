@@ -1,4 +1,3 @@
-
 module FWD_UNIT (
 	input logic register_write_w,
 	input logic [31:0] inst_e, inst_w,
